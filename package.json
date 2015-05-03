@@ -1,0 +1,30 @@
+{
+  "name": "gtfs-prints",
+  "version": "1.0.0",
+  "description": "3D prints of GTFS transit data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/apburnes/gtfs-prints"
+  },
+  "keywords": [
+    "gtfs",
+    "3d",
+    "print",
+    "transit",
+    "geo",
+    "data"
+  ],
+  "author": "apburnes <bizzurnzz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apburnes/gtfs-prints/issues"
+  },
+  "homepage": "https://github.com/apburnes/gtfs-prints",
+  "dependencies": {
+    "shp2stl": "^0.1.1"
+  }
+}
